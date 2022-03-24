@@ -54,13 +54,7 @@ detectPersonalLevel();
 
 function showMyDB() {
     if (personalMovieDB.privat == false)
-    console.log(personalMovieDB);
+    {console.log(personalMovieDB);}
 }
 showMyDB();
 
-
-/* Задание на урок:
-3) Создать функцию writeYourGenres в которой пользователь будет 3 раза отвечать на вопрос 
-"Ваш любимый жанр под номером ${номер по порядку}". Каждый ответ записывается в массив данных
-genres
-P.S. Функции вызывать не обязательно */
