@@ -36,9 +36,9 @@ function rememberMyFilms () {
 rememberMyFilms();
 
 function writeYourGenres () {
-    for (let i = 0; i < 3; i++) {
-        let genre = prompt('Ваш любимый жанр под номером ${i}');
-        personalMovieDB.genres.push(genre);
+    for (let i = 1; i < 4; i++) {
+        let genre = prompt(`Ваш любимый жанр под номером ${i}`);
+        personalMovieDB.genres[i - 1] = genre;
     }
 }
 writeYourGenres();
